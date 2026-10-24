@@ -1,0 +1,33 @@
+{
+  "name": "worldtour-ai-mcp",
+  "version": "1.0.0",
+  "description": "World Tour AI Model Context Protocol Server for Autonomous Global Cultural Exchange, Borderless Pilgrimage, Planetary Heritage Discovery & Regenerative Eco-Mobility Protocol",
+  "tools": [
+    {
+      "name": "audit_cultural_preservation",
+      "description": "Audit travel routes, heritage preservation invariants, and fair-share compensation for indigenous host communities",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "context": { "type": "string" },
+          "evaluation_metric": { "type": "string" }
+        },
+        "required": ["context"]
+      }
+    },
+    {
+      "name": "disburse_pilgrimage_sanctuary_aid",
+      "description": "Trigger direct micro-escrows for sacred pilgrimage stipends, eco-mobility vouchers, and historical sanctuary conservation",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "proof_hash": { "type": "string" }
+        },
+        "required": ["category", "recipient", "amount_wei"]
+      }
+    }
+  ]
+}
